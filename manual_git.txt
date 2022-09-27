@@ -3,4 +3,7 @@ git status
 git add .
 git commit -m "ingresar el comentario"
 git config --list (Muestra la config de git user, etc)
+git config --list --show-origin (muestra informacion )
+git log archivo.txt (muestra los cambios historicos del archivo)
+git show archivo.txt (muestra los cambios del archivo)
 
