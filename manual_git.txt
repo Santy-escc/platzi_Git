@@ -1,2 +1,6 @@
 git init 
 git status 
+git add .
+git commit -m "ingresar el comentario"
+git config --list (Muestra la config de git user, etc)
+
