@@ -24,4 +24,6 @@ git shortlog (muestra quien hizo el cambio)
 
 git log --author=“Nombre del autor” - Confirma realizados por autor que cumplen exactamente con el nombre.
 
+git branch nombre_cabecera (abre una nueva cabecera)
+
 
