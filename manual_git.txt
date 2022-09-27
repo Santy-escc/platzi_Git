@@ -6,4 +6,8 @@ git config --list (Muestra la config de git user, etc)
 git config --list --show-origin (muestra informacion )
 git log archivo.txt (muestra los cambios historicos del archivo)
 git show archivo.txt (muestra los cambios del archivo)
+git diff se pone los codigos hexadecimales de las versiones a comparar
+git reset --hard o --soft  hexadecimal (nos permite volver a una version anterior)
+--hard se elimina todos los anteriores como si no hubieran existido
+--soft para que sigan los registros en el historial
 
