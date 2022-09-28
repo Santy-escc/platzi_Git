@@ -30,6 +30,8 @@ git checkout nombre_cabecera (para moverse a la nueva cabecera)
 
 cambios
 
+git commit -am "comentario"
+
 
 
 
