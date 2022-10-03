@@ -34,7 +34,18 @@ git commit -am "comentario"
 
 git merge "comentario"
 
-git remote set-url origin https://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@github.com/Santy-escc/platzi_Git.git
+Cambiar la rama principal master  para usar 'main
+git branch -a
+git checkout master
+git branch -m main
+git symbolic-ref HEAD refs/heads/main
 
+para conectar con el servidor github
 
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git 
+git remote set-url origin https://poner aqui el token@github.com/Santy-escc/platzi_Git.git
+
+git pull --rebase origin main
+
+ git push -u origin main
 
