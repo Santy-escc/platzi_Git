@@ -42,11 +42,13 @@ git symbolic-ref HEAD refs/heads/main
 
 para conectar con el servidor github
 
-git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git 
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git (se puede usar para ssh)
 git remote set-url origin https://poner aqui el token@github.com/Santy-escc/platzi_Git.git
 
 git pull --rebase origin main (se utiliza para que la rama no este detras de la principal)
 git push -u origin main
 git pull origin main (para cambios de github a git)
 
+#verifica si el agente de ssh es running
+eval $(ssh-agent -s)
 
