@@ -34,7 +34,7 @@ git commit -am "comentario"
 
 git merge "comentario"
 
-
+git remote set-url origin https://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@github.com/Santy-escc/platzi_Git.git
 
 
 
