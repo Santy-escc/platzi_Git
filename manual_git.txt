@@ -52,6 +52,7 @@
     git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git (se puede usar para ssh)
 
 #ssh
+    git remote set-url origin git@github.com:Santy-escc/projectDemo.git
     
 #guardar cambios en repositorios
     git pull --rebase origin main (para combinar cambios git y github)
