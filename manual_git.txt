@@ -2,9 +2,13 @@
 
     git init 
     git status 
-    git config --list (Muestra la config de git user, etc)
+    git config -l (Muestra la config de git user, etc)
     git config --list --show-origin (muestra informacion )
 
+#para cambiar el email en la configuracion global
+
+    git config --global  user.email "santy.escc@gmail.com"
+    
 #para mostrar cambios
 
     git log --stat (muestra cambios detallados de la carpeta)
@@ -53,6 +57,10 @@
 
 #ssh
     git remote set-url origin git@github.com:Santy-escc/projectDemo.git
+  
+#para ver el repositorio actual siempre ir al proyecto debe mostrarse la rama ejm main
+
+    git remote -v 
     
 #guardar cambios en repositorios
     git pull --rebase origin main (para combinar cambios git y github)
@@ -61,4 +69,8 @@
 
 #verifica si el agente de ssh es running
     eval $(ssh-agent -s)
+        
+#para crear claves publica y privada
+    ssh-keygen -t rsa -b 4096 -C "santy.escc@gmail.com"
+    
 
